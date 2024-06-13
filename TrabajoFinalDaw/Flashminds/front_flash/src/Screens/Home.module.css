@@ -1,0 +1,57 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(360, #ffffff, rgb(4, 110, 202)); */
+    padding: 20px 20px 200px;
+    align-items: center;
+    text-align: center;
+  }
+  .titleContainer {
+    padding-top: 80px;
+  }
+  
+  .home p {
+    font-size: 5em;
+    color:#4472c4;
+  }
+
+  .home a {
+    font-size: 2em;
+    color: #4472c4; ;
+    border-style:double;
+    border-radius: 10%;
+  }
+  
+  .callToAction {
+    background-color:  rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+    border-radius:8%;
+
+  }
+  
+  .callToAction:hover {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .ctaContainer {
+    padding-top: 40px;
+   
+  }
+  .webImage {
+    width: 398px;
+    height: 293px;
+    padding-bottom: 10px;
+  }
+
+  @media (min-width: 800px) {
+    .services p {
+      font-size: 3.5em;
+    }
+    .webImage {
+      width: 596px;
+      height: 386px;
+    }
+  }

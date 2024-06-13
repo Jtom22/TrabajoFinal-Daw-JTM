@@ -1,0 +1,87 @@
+.formulario {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c6cdec;
+
+
+  }
+  
+  .formulario h2 {
+    color: #8b9ed8;
+    color: #4472c4;
+    
+    font-weight: 400;
+    font-size: 3.5em;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    border-width: 1.5em;
+    border-color: #4472c4; ;
+    /* background-color: aliceblue; */
+    background-color: white;
+    border-radius: 3%;
+    padding-left:3%;
+    padding-right:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  
+  }
+  
+  .input {
+    border: 1px solid #4472c4;
+    width: 90%;
+    height: 25px;
+    background: none;
+    color: #4472c4;
+    margin-top: 15px;
+  }
+  
+  .form textarea {
+    border: 1px solid #4472c4;
+    color: 4472c4;
+    resize: none;
+    width: 90%;
+    margin-top: 15px;
+
+  }
+  
+  .form button {
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid rgb(4, 110, 202);
+    margin-top: 10px;
+    color:#4472c4;
+  }
+  
+  .form label {
+    color:#4472c4;
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  .registro{
+    border: 1px solid #4472c4;
+    border-radius: 10%;
+    height: 25px;
+    color:  #4472c4;
+    padding: 1%;
+    width: 100%;
+
+
+  }
+  .rutas a{
+    margin-left: 5%;
+  }
+  .rutas{
+    align-items: start;
+    width: 100%;
+    
+  }
